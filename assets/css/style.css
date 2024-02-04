@@ -1,0 +1,207 @@
+:root {
+    --main-txt-color: #000000;
+    --highlight-text-color: #FFFFFF;
+    --bg-title: #E1004B;
+    --bg-primary:#1752A4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,
+ul {
+    list-style: outside none none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: none;
+}
+
+a {
+    font-family: 'PlusJakartaSans', sans-serif;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: inherit;
+}
+input,input[type="text"]{
+    border: 0px;
+    padding: 10px 8px;
+    outline: none;
+    border-radius: 12px;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'PlusJakartaSans';
+    font-weight: inherit;
+}
+/* @font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('./assets/fonts/PlusJakartaSans.ttf')  format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('./assets/fonts/PlusJakartaSans.ttf')  format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('./assets/fonts/PlusJakartaSans.ttf')  format('ttf');
+    font-weight: 600;
+    font-style: normal;
+} */
+body{
+    font-family: 'PlusJakartaSans', sans-serif;
+    background-color: var(--highlight-text-color);
+    font-size: 16px;
+}
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+header{
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+header .header-left{
+    max-width: 56px;
+    width:100%;
+    height: 55.27px;
+}
+header .header-left img{
+    width: 100%;
+    height: auto;
+    max-width: 56px;
+}
+header .header-right{
+    display: flex;
+    align-items: center;
+}
+header .header-right .header-nav{
+    display: flex;
+    align-items: center;
+}
+.header .header-right .header-nav .nav-menu-list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: var(--highlight-text-color);
+}
+
+.header-banner{
+   margin-top: 20px;
+   background-image: url(../images/bg-header.png);
+   background-repeat: no-repeat;
+   background-position: center center; 
+   background-size: cover;
+   width: 100%;
+   height: 212px;
+   color: var(--highlight-text-color);
+   display: flex;
+   
+}
+.header-banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+
+}
+.header-banner-content .header-banener-content-title{
+    font-size: 36px;
+}
+
+
+
+.content{
+    margin-top: 50px;
+}
+.content .content-ringtones{
+    display: flex;
+    gap: 122px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.content .content-ringtones .content-ringtones-new{
+    width: 100%;
+}
+.content-ringtones-new .ringtones-new-title{
+    background-color: var(--bg-title);
+    color: var(--highlight-text-color);
+    font-size: 24px;
+    padding: 5px 0px;
+    border-radius: 0 22px 0px 0px;
+}
+.content-ringtones-new .ringtones-category-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px; 
+}
+.ringtones-category-new-content{
+    width: 100%;
+}
+.ringtones-category-list .ringtones-new-category{
+    width: 100%;
+    height: 162px;
+    margin-top: 17px;
+    background-image: url(../images/bg-ringtone-category-left.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ringtones-new-category-title{
+    color: var(--highlight-text-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.ringtones-new-content-export{
+    margin-top: 10px;
+    background-color: var(--highlight-text-color);
+    box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
+    width: 100%;
+    height: 65px;
+    border-radius: 12px;
+}
+.content-category{
+    width: 150px;
+    height: 80px;
+    margin-top: 55px;
+    background-image: url(../images/bg-category-sidebar-ringtones.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content-category-title{
+    color: var(--highlight-text-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
