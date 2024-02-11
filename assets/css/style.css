@@ -178,16 +178,94 @@ header .header-right .header-nav{
     text-transform: uppercase;
 }
 .ringtones-new-content-export{
+    align-items: center;
+    display: flex;
     margin-top: 10px;
     background-color: var(--highlight-text-color);
-    box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
     width: 100%;
     height: 65px;
     border-radius: 12px;
+    gap: 34px;
+}
+.ringtones-new-content-export .play-music{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.ringtones-new-content-details{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.ringtones-new-content-details h2{
+    text-align: center;
+    font-size: 18px;
+    color: #E1004B;
+    font-weight: 700;
+}
+.ringtones-new-content-details-export{
+    gap: 30px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ringtones-new-content-details-export-left{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.ringtones-icon-listen{
+    width: 16px;
+    height: 14px;
+}
+.ringtones-new-view{
+    font-size: 14px;
+    font-weight: 700;
+}
+.ringtones-icon-download{
+    width: 16px;
+    height: 16px;
+}
+.ringtones-new-download{
+    font-size: 14px;
+    font-weight: 700;
+}
+.ringtones-new-content-export .ringtones-new-content-details .line{
+    width: 4px;
+    height: 22px;
+    background-color: #E1004B;
+    border-radius: 25px;
+}
+.ringtones-new-content-details-export-right{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.ringtones-new-content-times{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.ringtones-new-content-times .icon-times{
+    width: 24px;
+    height: 24px;
+}
+.ringtones-new-content-times .times-content{
+    font-size: 18px;
+    font-weight: 700;
 }
 .content-category{
-    width: 150px;
-    height: 80px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+}
+.content-category-bg{
+    width: 300px;
+    height: 150px;
     margin-top: 55px;
     background-image: url(../images/bg-category-sidebar-ringtones.png);
     background-repeat: no-repeat;
@@ -204,4 +282,38 @@ header .header-right .header-nav{
     font-weight: 700;
     font-size: 24px;
     text-transform: uppercase;
+}
+.content-category .content-category-export{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 36px;
+    padding: 16px 14px;
+    border: 1px solid #E1004B;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content-category .content-category-export .icon-music{
+    width: 24px;
+    height: 24px;
+}
+.content-category-export .content-category-export-title{
+    font-size: 18px;
+    color: #E1004B;
+    font-weight: 700;
+}
+
+.ringtones-new-content-paginate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.ringtones-new-content-paginate .paginate-text{
+    font-weight: 700;
+}
+.ringtones-new-content-paginate .paginate-text:hover{
+    color: #E1004B;
 }
