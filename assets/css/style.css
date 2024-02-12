@@ -495,3 +495,95 @@ header .header-right .header-nav{
 .ringtones-faq-ans-details{
     margin-top: 10px;
 }
+
+
+.ringtones-footer{
+    margin-top: 45px;
+    width: 100%;
+    height: 242px;
+    background-color: var(--bg-primary);
+}
+.ringtones-footer-content{
+    padding-top: 60px;
+}
+.ringtones-footer .ringtones-footer-content-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ringtones-footer-content-top-left{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.footer-logo{
+    width: 100%;
+    height: auto;
+    max-width: 56px;
+}
+.footer-title{
+    color: var(--highlight-text-color);
+    font-weight: 700;
+}
+.footer-txt{
+    margin-top: 12px;
+    font-weight: 400;
+}
+.ringtones-footer-content-top-right{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.ringtones-footer-content-top-right .footer-icon-google-play{
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+}
+.ringtones-footer-content-top-right .footer-icon-appstore{
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+}
+.footer-content-center{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content-center-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content-center-left .footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.footer-content-center-left .footer-nav{
+    color: var(--highlight-text-color);
+}
+.footer-line{
+    width: 1px;
+    height: 22px;
+    background-color: var(--highlight-text-color);
+    border-radius: 25px;
+}
+.footer-content-center-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-list .social-items{
+    width: 50px;
+    height: 50px;
+}
+.footer-content-bottom{
+    margin: 22px 0px 22px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--highlight-text-color);
+    font-weight: 500;
+}
