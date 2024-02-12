@@ -135,7 +135,7 @@ header .header-right .header-nav{
 }
 .content .content-ringtones{
     display: flex;
-    gap: 122px;
+    gap: 22px;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -150,6 +150,7 @@ header .header-right .header-nav{
     border-radius: 0 22px 0px 0px;
 }
 .content-ringtones-new .ringtones-category-list{
+    margin-bottom: 88px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 60px; 
@@ -257,6 +258,22 @@ header .header-right .header-nav{
     font-size: 18px;
     font-weight: 700;
 }
+.ringtones-new-content-paginate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.ringtones-new-content-paginate .paginate-text{
+    font-weight: 700;
+}
+.ringtones-new-content-paginate .paginate-text:hover{
+    color: #E1004B;
+}
+
+
+
+
 .content-category{
     align-items: center;
     flex-direction: column;
@@ -284,12 +301,15 @@ header .header-right .header-nav{
     text-transform: uppercase;
 }
 .content-category .content-category-export{
+    margin-top: 36px;
+}
+.content-category .content-category-export-details{
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 13px;
-    margin-top: 36px;
+    margin-bottom: 18px;
     padding: 16px 14px;
     border: 1px solid #E1004B;
     border-radius: 12px;
@@ -305,15 +325,130 @@ header .header-right .header-nav{
     font-weight: 700;
 }
 
-.ringtones-new-content-paginate{
+.new-ringtones .new-ringtones-title .new-ringtones-title-details{
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+.new-ringtones .new-ringtones-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.new-ringtones .new-ringtones-content-details{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    border-radius: 24px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+.new-ringtones-content-left{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.new-ringtones-content .new-ringtones-content-left .new-ringtones-content-thumbnails{
+    width: 180px;
+    height: 180px;
+}
+.new-ringtones-content-right{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-right: 24px;
+}
+.new-ringtones-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-ringtones-bottom-left{
+    display: flex;
+    gap: 30px;
+}
+.new-ringtones-author{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.new-ringtones-times{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.new-ringtones-author .new-ringtones-author-icon{
+    width: 24px;
+    height: 24px;
+}
+.new-ringtones-times .new-ringtones-times-icon{
+    width: 24px;
+    height: 24px;
+}
+.new-ringtones-content-paginate{
+    justify-content: center;
+    align-items: center;
+    display: flex;
     margin-top: 45px;
 }
-.ringtones-new-content-paginate .paginate-text{
+.paginate-new{
+    text-align: center;
     font-weight: 700;
 }
-.ringtones-new-content-paginate .paginate-text:hover{
+.paginate-new:hover{
     color: #E1004B;
+}
+
+.ringtones-faq{
+    margin-top: 88px;
+}
+.ringtones-faq-title{
+    font-size: 24px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+.ringtones-faq-toggle{
+    display: flex;
+    padding: 22px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border-radius: 12px 12px 0px 0px;
+    border-bottom: 2px solid #E1004B;
+}
+.container-faq{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+.ringtones-faq-toggle-items{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ringtones-faq-toggle-items .ringtones-faq-tab-title{
+    color: #E1004B;
+}
+.ringtones-faq-toggle-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ringtones-faq-items-right{
+    width: 17px;
+    height: 10px;
+}
+.ringtones-faq-ans{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.ringtones-faq-ans-details{
+    margin-top: 10px;
 }
